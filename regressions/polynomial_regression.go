@@ -16,7 +16,7 @@ import (
 )
 
 func PolynomialRegression() {
-	csvfile, err := os.Open("../dataset/polynomial_regression_data.csv")
+	csvfile, err := os.Open("dataset/polynomial_regression_data.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
